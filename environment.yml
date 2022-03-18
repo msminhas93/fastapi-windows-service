@@ -1,0 +1,14 @@
+name: windows-service
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - fastapi=0.74.0
+  - pyinstaller=4.9
+  - python=3.9.10
+  - uvicorn=0.17.5
+  - requests=2.27.1
+  - psutil=5.9.0
+  - webencodings
+  - pip=22.0.4
